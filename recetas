@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Recetas Ecuatorianas</title>
+    <script type="application/ld+json">
+    {
+        "@context": {
+            "dcat": "http://www.w3.org/ns/dcat#",
+            "foaf": "http://xmlns.com/foaf/0.1/",
+            "dct": "http://purl.org/dc/terms/",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "schema": "http://schema.org/"
+        },
+        "@type": "dcat:Catalog",
+        "dct:title": "Catálogo de Recetas Ecuatorianas",
+        "dct:description": "Un catálogo que contiene recetas tradicionales de Ecuador.",
+        "dct:issued": "2024-07-16",
+        "dct:publisher": {
+            "@type": "foaf:Organization",
+            "foaf:name": "Universidad de Cuenca"
+        },
+        "dcat:dataset": {
+            "@type": "dcat:Dataset",
+            "dct:title": "Recetas Ecuatorianas",
+            "dct:description": "Conjunto de datos que contiene recetas de entradas, sopas, platos principales, postres y bebidas.",
+            "dct:creator": {
+                "@type": "foaf:Person",
+                "foaf:name": "Paul Villalta"
+            },
+            "dcat:distribution": {
+                "@type": "dcat:Distribution",
+                "dcat:accessURL": "http://example.org/ecuadorian_recipes.ttl",
+                "dcat:mediaType": "text/turtle"
+            }
+        }
+    }
+    </script>
+</head>
+<body>
+    <h1>Catálogo de Recetas Ecuatorianas</h1>
+    <p>Este catálogo contiene recetas tradicionales de Ecuador, incluyendo entradas, sopas, platos principales, postres y bebidas.</p>
+    <h2>Descargar el conjunto de datos</h2>
+    <p>Puedes descargar el conjunto de datos en formato Turtle desde el siguiente enlace:</p>
+    <a href="http://example.org/ecuadorian_recipes.ttl">Descargar Recetas Ecuatorianas</a>
+</body>
+</html>
